@@ -1,0 +1,9 @@
+1)	Programar un servicio REST CRUD (Create, Read, Update & Delete) que mantenga registros de datos básicos de productos (SKU, nombre, precio, stock). El servicio tiene que estar desarrollado en NodeJS con persistencia de datos en MySQL. Se deben proveer 2 recursos para la función recuperación de un producto, uno que retorne los datos de un producto particular dado el ID y el otro que retorne una lista de productos que cumpla con una condición dada como parámetro. El retorno de información debe hacerse en formato JSON
+
+2)	Desarrollar una página HTML básica a modo de Front-End que consuma los servicios de la API anterior, permitiendo agregar, listar, corregir y borrar productos.
+
+3)	Desarrollar una aplicación web que dado una línea de colectivo determinada, muestra la ubicación de todos los colectivos de dicha línea en un mapa. Para esto usar algún servicio tipo API de Google Maps o similar y el servicio de Open Data de CABA
+
+
+4)	Desarrollar un servicio que este integrado con la API de Mercado Libre que cuando un cliente pregunte si hay stock de un producto, consulte con la API del ejercicio 1 si hay stock y en ese caso contestar que si, y sino dejar sin contestar la pregunta. Usar la API de notificaciones de ML, programar un backend que reciba dichos requerimientos (webhook) y que se encargue de responder las preguntas.
+
