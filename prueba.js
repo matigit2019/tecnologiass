@@ -23,7 +23,15 @@ app.delete('/', function (req, res) {
 
 const express = require('express')
 const app     = express()
-const port    = 3000
+//const port    = 3000
+
+const http = require('http');
+const normalizePort = require('normalize-port');
+ 
+const port = normalizePort(process.env.PORT || '3000');
+
+
+//const port = normalizePort(process.env.port || 300);
 
 
 var mysql      = require('mysql');
