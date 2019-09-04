@@ -31,9 +31,6 @@ const normalizePort = require('normalize-port');
 const port = normalizePort(process.env.PORT || '3000');
 
 
-//const port = normalizePort(process.env.port || 300);
-
-
 var mysql      = require('mysql');
 var connection = mysql.createConnection({ 
   host     : 'testaws.cwyvtim77nro.us-east-1.rds.amazonaws.com',
@@ -49,6 +46,8 @@ connection.connect();
 //req es por convencion
 //params es parte de express
 //imporimio en consola otros datos
+
+
 app.get('/producto/:id', (req, res) => 
 //{ 
 //        console.log(req);
